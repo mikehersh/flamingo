@@ -71,7 +71,7 @@ class Student implements Serializable {
 	 * @return A String with student information
 	 */
 	public String toString() {
-		return name + " " + major + " " + cgpa;
+		return "The student info" + name + " " + major + " " + cgpa;
 	}	
 }
 
